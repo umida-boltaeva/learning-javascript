@@ -6,3 +6,5 @@ var myList = [
     ["cabbage", 2],
     ["mugs", 3]
 ];
+
+console.log(myList);
