@@ -1,8 +1,10 @@
 var plantNeedsWater = function (day) {
-    if (day === 'Wednesday') {
+    if (day === 'Wednesday' || day === 'Thursday') {
         return true;
+    } else if (day === 'Monday') {
+        return 'Wait for Wednesday!';
     } else {
-        return false;
+        return 'invalid day';
     }
 };
 plantNeedsWater('Tuesday');
