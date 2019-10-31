@@ -1,7 +1,7 @@
-var city = 'New York City';
+let city = 'New York City';
 
 function logCitySkyline() {
-    var skyscraper = 'Empire State Building';
+    let skyscraper = 'Empire State Building';
     return 'The stars over the ' + skyscraper + ' in ' + city;
 }
 console.log(logCitySkyline());

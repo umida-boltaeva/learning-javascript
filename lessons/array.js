@@ -1,4 +1,4 @@
-var myList = [
+let myList = [
   ["chocolate bar", 15],
   ["pancake", 5],
   ["banana", 4],
