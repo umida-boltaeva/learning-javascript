@@ -5,3 +5,5 @@ var gotoLibrary = (day) => {
         return false;
     }
 };
+
+console.log(gotoLibrary());

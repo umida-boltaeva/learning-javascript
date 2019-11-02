@@ -8,7 +8,7 @@
 
 var dailyWaterIntake = () => {
     console.log(waterIntake);
-}
+};
 let waterIntake = '3 litres';
 
 dailyWaterIntake();
