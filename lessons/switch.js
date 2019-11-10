@@ -1,7 +1,7 @@
 function caseInSwitch(val) {
     var answer = "";
 
-    switch (caseInSwitch) {
+    switch (val) {
         case 1:
             answer = 'alpha';
             break;
@@ -15,4 +15,6 @@ function caseInSwitch(val) {
             answer = 'delta';
             break;
     }
+    return answer;
 }
+console.log(caseInSwitch(4));
