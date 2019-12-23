@@ -49,4 +49,4 @@ function convertToRoman(num) {
     return res;
 }
 
-console.log(convertToRoman(3999));
+console.log(convertToRoman(1369));
